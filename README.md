@@ -5,7 +5,7 @@
 
 ### Initialization
 
-#### groundsloth can be git cloned and the requirements can be added from the _menu option 5_. 
+#### groundsloth can be git cloned and the requirements can be added from the _menu option 5_. Must be ran with sudo and python3. 
 
 ### Flags used
 #### responder: -w Start the WPAD rogue proxy server.
