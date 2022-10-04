@@ -70,7 +70,6 @@ def get_menu_choice():
                 Interface_res=input("Enter Responder listener interface: ") 
                 os.system("tmux new -d -s responder")
                 os.system("tmux send-keys -t responder 'responder -I "  + Interface_res + " -w' ENTER")
-                os.system("tmux send-keys -t responder 'responder -I "  + Interface_res + " -w ' ENTER")
                 print("Responder launched in new tmux session")
             else:
                 print("Invalid input")
