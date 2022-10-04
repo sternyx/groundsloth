@@ -31,6 +31,8 @@ Welcome to Ground Sloth
                                          ~                      
 """)
 
+print(Fore.LIGHTMAGENTA_EX + "By sternyx and initzero")
+
 
 def prerequisites():
     os.system("git clone https://github.com/dirkjanm/mitm6")
