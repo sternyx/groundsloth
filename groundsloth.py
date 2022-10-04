@@ -78,7 +78,7 @@ def get_menu_choice():
             domain=input("Enter a Domain: ")
             print("Launching Mitm6 in the background..")
             os.system("tmux new -d -s mitm6")
-            os.system("tmux send-keys -t mitm6 'mitm6/mitm6/mitm6.py -d " + domain + "' ENTER")
+            os.system("tmux send-keys -t mitm6 'python3 mitm6/mitm6/mitm6.py -d " + domain + "' ENTER")
             print("Mitm6 launched in new tmux session")
 
         elif choice=='3':
