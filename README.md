@@ -8,10 +8,7 @@
 #### groundsloth can be git cloned and the requirements can be added from the _menu option 5_. 
 
 ### Flags used
-#### responder: -w Start the WPAD rogue proxy server. -f This option allows you to fingerprint a host that issued an NBT-NS or LLMNR query.
+#### responder: -w Start the WPAD rogue proxy server.
 #### mitm6: none
-#### ntlmrelayx: -smb2support SMB Relay Server adds support for SMB2+. -socks allows you to store sessions gained from authentication relays at a SOCKS proxy.
-<<<<<<< HEAD
-=======
+#### ntlmrelayx: -smb2support SMB Relay Server adds support for SMB2+. -socks allows you to store sessions gained from authentication relays at a SOCKS proxy
 
->>>>>>> 739878433fb58a8fd37c4433692638e50e95c5f2
