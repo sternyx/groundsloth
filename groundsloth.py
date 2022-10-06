@@ -99,7 +99,7 @@ def get_menu_choice():
             print("Number 4")
             IPAddress=input('Enter the IP Address: ')
             print(IPAddress)
-            os.system("sudo nmap -p139,145 --script smb2-security-mode.nse " + IPAddress + " -oA NmapScan")
+            os.system("sudo nmap -p139,445 --script smb2-security-mode.nse " + IPAddress + " -oA NmapScan")
             os.system("mv NmapScan.xml NmapScan_" + IPAddress + "_" + timestamp + ".xml")
             os.system("mv NmapScan.gnmap NmapScan_" + IPAddress + "_" + timestamp + ".gnmap")
             os.system("mv NmapScan.nmap NmapScan_" + IPAddress + "_" + timestamp + ".nmap")
